@@ -49,7 +49,7 @@
             HRML(A,        S,         D,         F)     &kp G          &kp H      HRMR(J,        K,         L,    SEMICOLON)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │   .      │   ,      │   ?      │   !      │
-            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N    &kp LG(DOT) &kp DOT  &kp LG(DOT) &kp LG(N1)
+            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N    &kp LS(DOT) &kp DOT  &kp LG(DOT) &kp N1
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt 2 TAB  &lt 1 ENTER     &kp SPACE  &kp BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -83,7 +83,7 @@
             &kp EXCL   &kp LARW   &kp DARW   &kp RARW   &kp PRCNT      &kp ASTRK &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp GRAVE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │  0       │  1       │  2       │  3       │    @     │
-            &trans     &trans    &kp LG(C) &kp LG(V)   &kp LG(Z)       &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp AT_SIGN
+            &trans     &trans    &kp LG(C) &kp LG(V)   &kp LG(Z)       &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp GRAVE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
