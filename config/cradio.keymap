@@ -49,7 +49,7 @@
             HRML(A,        S,         D,         F)     &kp G          &kp H      HRMR(J,        K,         L,    SEMICOLON)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │   .      │   ,      │   ?      │   !      │
-            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N     &kp FR_DOT &kp FR_COMMA &kp FR_QUESTION &kp FR_EXCL
+            &kp Z      &kp X      &kp C      &kp V      &kp B          &kp N     &kp FR_DOT &kp FR_COMMA &kp FR_QUESTION &kp FR_EXCLAMATION
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt 2 TAB  &lt 1 ENTER     &kp SPACE  &kp BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯m
