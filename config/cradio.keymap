@@ -83,7 +83,7 @@
             &kp RS(RA(L)) &kp FR_SLASH  &kp PLUS  &kp MINUS  &kp RPAR       &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
-           &kp NUMBER_1  &kp N7   &kp SLASH   &kp M    &kp PIPE      &trans     &trans     &trans     &trans     &trans
+           &kp NUMBER_1 &kp N7 &kp LS(SLASH) &kp SLASH &kp PIPE        &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
