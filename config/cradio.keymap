@@ -96,7 +96,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │          │
-            &reset     &trans     &trans     &trans    &bt BT_SEL 0    &kp KP_LPAR    &kp KP_RPAR    &kp RBRC    &kp GRAVE     &kp TILDE
+            &reset     &trans     &trans     &trans    &bt BT_SEL 0    &kp GRAVE    &kp TILDE2    &kp TILDE    &kp GRAVE     &kp TILDE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │          │
           &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &kp NON_US_HASH    &kp TILDE2    &kp KP_PLUS    &kp RET   &kp RET2
