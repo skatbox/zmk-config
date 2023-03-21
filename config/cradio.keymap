@@ -61,8 +61,8 @@
         left_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│   Delete │  [       │  UP      │  ALLApp  │ALLWindows│   │  ^       │  7       │  8       │  9       │  -       │
-            &kp LG(BSPC)   &kp LBKT   &kp UARW   &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS      &kp LBKT  &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp NUMBER_4
+        //│   Delete │          │  UP      │  ALLApp  │ALLWindows│   │  ^       │  7       │  8       │  9       │  -       │
+            &kp LG(BSPC) &none   &kp UARW   &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS      &kp LBKT  &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp NUMBER_4
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  LEFT    │  DOWN    │  RIGHT   │  %       │   │  _       │  4       │  5       │  6       │  "       │
             &kp EXCL   &kp LARW   &kp DARW   &kp RARW   &kp PRCNT      &kp PLUS &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp NUMBER_3
@@ -79,7 +79,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│    #     │  [       │  ]       │  3       │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
-            &kp HASH   &kp RS(RA(FR_BACKSLASH))  &kp RS(RA(MINUS))     &kp N3     &trans        &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
+            &kp HASH   &kp FR_LEFT_BRACKET  &kp RS(RA(MINUS))     &kp N3     &trans        &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    |     │  4       │  5       │  (       │    )     │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
             &kp RS(RA(L)) &kp FR_SLASH  &kp FR_BACKSLASH &kp N5 &kp MINUS       &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
