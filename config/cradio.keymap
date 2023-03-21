@@ -35,6 +35,7 @@
 //https://zmk.dev/docs/codes
 //M -> SEMICOLON
 //é -> FR_E_ACUTE
+//: -> DOT
 
 
     keymap {
@@ -65,8 +66,8 @@
         //│  !       │  LEFT    │  DOWN    │  RIGHT   │  %       │   │  _       │  4       │  5       │  6       │  "       │
             &kp EXCL   &kp LARW   &kp DARW   &kp RARW   &kp PRCNT      &kp PLUS &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp NUMBER_3
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │          │   │  0       │  1       │  2       │  3       │    @     │
-            &trans     &trans    &kp LG(C) &kp LG(V)   &kp LG(W)       &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp LA(NON_US_HASH)
+        //│    %     │          │          │          │          │   │  0       │  1       │  2       │  3       │    @     │
+            &kp DQT     &trans    &kp LG(C) &kp LG(V)   &kp LG(W)       &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp LA(NON_US_HASH)
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -79,11 +80,11 @@
         //│    #     │  1       │  2       │  3       │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
             &kp HASH    &kp N1     &kp N2     &kp N3     &trans        &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│    |     │  4       │  5       │  6       │    )     │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
+        //│    |     │  4       │  5       │  (       │    )     │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
             &kp RS(RA(L)) &kp FR_SLASH  &kp FR_BACKSLASH &kp N5 &kp MINUS       &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
-           &kp NUMBER_1 &kp EQUAL &kp LS(SLASH) &kp SLASH &kp PIPE        &trans     &trans     &trans     &trans     &trans
+        //│    &     │  -       │  +       │  =       │  ;       │   │          │          │          │          │          │
+           &kp NUMBER_1 &kp EQUAL &kp LS(SLASH) &kp SLASH &kp &kp COMMA        &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
