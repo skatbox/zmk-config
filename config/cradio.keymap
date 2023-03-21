@@ -96,13 +96,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │          │
-            &reset     &trans     &trans     &trans    &bt BT_SEL 0    &kp GRAVE    &kp TILDE2    &kp TILDE    &kp GRAVE     &kp TILDE
+            &reset     &trans     &trans     &trans    &bt BT_SEL 0    &kp AMPS    &kp CARET    &kp PRCNT    &kp DLLR     &kp HASH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │          │
-          &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &kp FSLH    &kp SLASH    &kp QUESTION    &kp QMARK   &kp RET2
+          &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &kp POUND    &kp EXCL    &kp QUESTION    &kp UNDER   &kp FSLH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
-            &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &kp KP_MINUS    &kp KP_MULTIPLY    &kp KP_DIVIDE    &kp KP_EQUAL    &kp KP_DOT
+            &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &kp PIPE    &kp NON_US_BACKSLASH    &kp KP_DIVIDE    &kp COLON    &kp LESS_THAN
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
