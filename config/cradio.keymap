@@ -82,7 +82,7 @@
             &kp LS(NON_US_BACKSLASH)   &kp RS(RA(N5))  &kp RS(RA(MINUS)) &kp RA(N5)  &kp RA(MINUS)        &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    |     │  4       │  5       │  (       │    )     │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
-            &kp RS(RA(L)) &kp FR_SLASH  &kp KP_DIVIDE &kp N5 &kp MINUS       &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
+            &kp RS(RA(L)) &kp FR_SLASH  &kp RS(RA(FR_SLASH)) &kp N5 &kp MINUS       &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    &     │  -       │  +       │  =       │  ;       │   │          │          │          │          │          │
            &kp NUMBER_1 &kp EQUAL &kp LS(SLASH) &kp SLASH &kp COMMA        &trans     &trans     &trans     &trans     &trans
