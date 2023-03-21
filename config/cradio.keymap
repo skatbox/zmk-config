@@ -78,8 +78,8 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│    #     │  [       │  ]       │  3       │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
-            &kp HASH   &kp FR_LEFT_BRACKET  &kp RS(RA(MINUS))     &kp N3     &trans        &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
+        //│    #     │  [       │  ]       │  {       │     }    │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
+            &kp HASH   &kp RS(RA(N5))  &kp RS(RA(MINUS)) &kp RA(N5)  &kp RA(MINUS)        &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    |     │  4       │  5       │  (       │    )     │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
             &kp RS(RA(L)) &kp FR_SLASH  &kp FR_BACKSLASH &kp N5 &kp MINUS       &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
