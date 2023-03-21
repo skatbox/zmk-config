@@ -84,7 +84,7 @@
             &kp RS(RA(L)) &kp FR_SLASH  &kp FR_BACKSLASH &kp N5 &kp MINUS       &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    &     │  -       │  +       │  =       │  ;       │   │          │          │          │          │          │
-           &kp NUMBER_1 &kp EQUAL &kp LS(SLASH) &kp SLASH &kp &kp COMMA        &trans     &trans     &trans     &trans     &trans
+           &kp NUMBER_1 &kp EQUAL &kp LS(SLASH) &kp SLASH &kp COMMA        &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
