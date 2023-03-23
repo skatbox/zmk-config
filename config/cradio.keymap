@@ -64,8 +64,8 @@
         //│   Delete │    ~     │  UP      │  ALLApp  │ALLWindows│   │  ^       │  7       │  8       │  9       │  -       │
             &kp LG(BSPC) &kp RA(N)   &kp UARW   &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS      &kp LBKT  &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp NUMBER_4
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  !       │  LEFT    │  DOWN    │  RIGHT   │  :       │   │  _       │  4       │  5       │  6       │  "       │
-            &kp EXCL   &kp LARW   &kp DARW   &kp RARW   &kp DOT       &kp PLUS &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp NUMBER_3
+        //│  °       │  LEFT    │  DOWN    │  RIGHT   │  :       │   │  _       │  4       │  5       │  6       │  "       │
+            &kp UNDER   &kp LARW   &kp DARW   &kp RARW   &kp DOT       &kp PLUS &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp NUMBER_3
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    %     │    *     │          │          │          │   │  0       │  1       │  2       │  3       │    @     │
             &kp DQT    &kp RBRC  &kp LG(C) &kp LG(V)   &kp LG(W)       &kp KP_N0  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp LA(NON_US_HASH)
@@ -96,13 +96,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │          │
-            &reset     &trans     &trans     &trans    &bt BT_SEL 0    &kp LBKT    &kp LBRC    &kp RBKT    &kp RBRC     &kp DLLR
+            &reset     &trans     &trans     &trans    &bt BT_SEL 0    &kp F1     &kp F2     &kp F3     &kp F4     &kp F5
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │          │
-          &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &kp POUND    &kp EXCL    &kp QUESTION    &kp UNDER   &kp FSLH
+          &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &kp F6     &kp F7     &kp F8     &kp F9     &kp F10
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
-            &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &kp PIPE    &kp NON_US_BACKSLASH    &kp KP_DIVIDE    &kp COLON    &kp LESS_THAN
+            &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &kp F11    &kp F12    &kp F13    &kp F14    &kp F14
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
