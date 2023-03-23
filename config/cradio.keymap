@@ -85,7 +85,7 @@
             &kp RS(RA(L)) &kp FR_SLASH  &kp RS(RA(FR_SLASH)) &kp N5 &kp MINUS       &kp GRAVE   &kp DARW   &kp UARW   &kp RARW   &kp C_VOL_DN
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│    &     │  -       │  +       │  =       │  ;       │   │          │          │          │          │     €    │
-           &kp NUMBER_1 &kp EQUAL &kp LS(SLASH) &kp SLASH &kp COMMA      &trans    &trans     &trans    &trans     &kp RA(RBRC)
+           &kp NUMBER_1 &kp EQUAL &kp LS(SLASH) &kp SLASH &kp COMMA      &trans    &trans     &trans    &trans     &kp LA(RBKT)
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
